@@ -11,7 +11,7 @@ fastify.get('/hub/', async (request, reply) => {
     <title>Our Services</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
-      main { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; padding: 2rem; }
+      main {justify-content: center; gap: 1rem; padding: 2rem; }
       .card { width: 200px; text-align: center; }
       .card img { width: 50px; height: 50px; margin-bottom: 0.5rem; }
       .card-link,
