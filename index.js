@@ -2,7 +2,7 @@ const fastify = require('fastify')({ logger: true });
 const services = require('./services.json');
 
 // Route for /hub
-fastify.get('/hub', async (request, reply) => {
+fastify.get('/hub/', async (request, reply) => {
   let html = `
   <!DOCTYPE html>
   <html lang="en">
